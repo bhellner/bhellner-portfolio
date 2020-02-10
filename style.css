@@ -1,0 +1,165 @@
+/****************************/
+/* Resets and General Setup */
+/****************************/
+
+html,body{
+	width: 100%;
+	min-height: 100%;
+}
+
+body{
+	margin: 0 auto;
+	background-image: url('./images/IMG_0362.jpeg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+	color: black;
+	font-family: 'TofinoRegular', sans-serif;
+  	position: relative;
+	overflow-y: hidden;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, li, i, div, section, footer, a, p{
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'TofinoBold', sans-serif;
+	font-weight: bold;
+}
+
+h1{
+  font-size: 32pt;
+}
+
+h2{
+  font-size: 28pt;
+}
+
+h3{
+  font-size: 24pt;
+}
+
+h4{
+  font-size: 20pt;
+}
+
+h5{
+  font-size: 16pt;
+}
+
+h6{
+  font-size: 12pt;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+  margin: 0;
+  padding: 0;
+}
+
+ul li a{
+  display: inline-block;
+}
+
+p, li{
+  font-size: 16pt;
+}
+
+.ss-icon{
+	vertical-align: middle;
+	margin-right: 10px;
+
+}
+
+#about-container{
+	position: absolute;
+  width: 40%;
+	height: 100vh;
+  flex-grow: 2;
+  box-shadow: 1px 0 20px rgba(0,0,0,.2);
+	background-color: rgba(255, 255, 255, 0.77);
+	overflow-y: scroll;
+}
+
+#name{
+  padding: 16pt 16pt 0;
+}
+
+#blurb{
+  padding: 16pt;
+  margin: 24pt 0;
+}
+
+#blurb p{
+  background-color: white;
+  line-height: 1.32em;
+  font-size: 16pt;
+  padding: 16pt;
+  margin-top: 12pt;
+  transition: .13s ease-in-out all;
+	border-radius: 2px;
+}
+
+#blurb p:hover{
+  box-shadow: 0 1px 26px rgba(0,0,0,.16);
+  transform: translateY(-4px);
+}
+
+#contact{
+  padding: 16pt;
+}
+
+#contact ul, #publications ul{
+  margin-top: 12pt;
+}
+
+#contact ul li, #publications ul li{
+  transition: .13s ease-in-out all;
+	border-radius: 2px;
+}
+
+#contact ul li:hover, #publications ul li:hover{
+  background-color: white;
+  transform: translateX(4px);
+	box-shadow: 0 1px 10px rgba(0,0,0,.12);
+}
+
+#contact ul li:first-of-type{
+  margin-bottom: 4px;
+}
+
+#contact ul li a{
+  padding: 12pt;
+}
+
+#publications{
+  padding: 16pt;
+}
+
+
+#publications ul li a{
+  padding: 12pt;
+}
+
+footer{
+  display: flex;
+  flex-grow: 0;
+  text-align: center;
+  width: 100%;
+}
+
+footer p{
+    font-size: 12pt;
+}
